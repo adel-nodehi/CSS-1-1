@@ -1,0 +1,63 @@
+/* element */
+
+h1 {
+  color: red;
+  border: 1px solid red;
+}
+
+/* class */
+
+/* .ye-esmi {
+  color: powderblue;
+} */
+
+/* id */
+
+#p-tag {
+  color: aqua;
+}
+
+/* universal */
+
+* {
+  /* border: 1px solid red; */
+}
+
+/* grouping */
+
+/* h1,
+.text,
+#id {
+  color: red;
+  border: 1px solid red;
+} */
+
+/* and selector */
+
+h1.ye-esmi {
+  color: powderblue;
+}
+
+/* element element */
+
+/* .mysection div {
+  border: 2px solid red;
+} */
+
+/*  element > element  */
+
+.mysection > div {
+  border: 2px solid red;
+}
+
+/*  element + element  */
+
+/* h3 + p {
+  color: rgb(29, 0, 191);
+} */
+
+/*  element ~ element  */
+
+h3 ~ p {
+  color: rgb(29, 0, 191);
+}
