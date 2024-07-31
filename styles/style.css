@@ -1,63 +1,22 @@
-/* element */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
 
-h1 {
-  color: red;
-  border: 1px solid red;
+@font-face {
+  font-family: "hello world";
+  src: url("../fonts/Poppins-Regular.ttf") format("TrueType");
 }
-
-/* class */
-
-/* .ye-esmi {
-  color: powderblue;
-} */
-
-/* id */
-
-#p-tag {
-  color: aqua;
-}
-
-/* universal */
 
 * {
-  /* border: 1px solid red; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* grouping */
-
-/* h1,
-.text,
-#id {
-  color: red;
-  border: 1px solid red;
-} */
-
-/* and selector */
-
-h1.ye-esmi {
-  color: powderblue;
+body {
+  font-family: "hello world";
 }
 
-/* element element */
-
-/* .mysection div {
-  border: 2px solid red;
-} */
-
-/*  element > element  */
-
-.mysection > div {
-  border: 2px solid red;
-}
-
-/*  element + element  */
-
-/* h3 + p {
-  color: rgb(29, 0, 191);
-} */
-
-/*  element ~ element  */
-
-h3 ~ p {
-  color: rgb(29, 0, 191);
+h1 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
 }
